@@ -1,6 +1,6 @@
 <?php
 // do php stuff
 
-readfile('be_tap_tinh.html');
+include_once('be_tap_tinh.html');
 
 ?>
