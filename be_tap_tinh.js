@@ -1,29 +1,29 @@
 function clickAdd() {
-    document.getElementById("add-btn").style.border = "hidden rgb(0, 109, 240) 1.5px";
-    document.getElementById("minus-btn").style.border = "solid rgb(0, 109, 240) 1.5px";
-    document.getElementById("mul-btn").style.border = "solid rgb(0, 109, 240) 1.5px";
-    document.getElementById("div-btn").style.border = "solid rgb(0, 109, 240) 1.5px";
+    document.getElementById("add-btn").style.border = "hidden yellowgreen 1.5px";
+    document.getElementById("minus-btn").style.border = "solid yellowgreen 1.5px";
+    document.getElementById("mul-btn").style.border = "solid yellowgreen 1.5px";
+    document.getElementById("div-btn").style.border = "solid yellowgreen 1.5px";
 }
 
 function clickMinus() {
-    document.getElementById("add-btn").style.border = "solid rgb(0, 109, 240) 1.5px";
-    document.getElementById("minus-btn").style.border = "hidden rgb(0, 109, 240) 1.5px";
-    document.getElementById("mul-btn").style.border = "solid rgb(0, 109, 240) 1.5px";
-    document.getElementById("div-btn").style.border = "solid rgb(0, 109, 240) 1.5px";
+    document.getElementById("add-btn").style.border = "solid yellowgreen 1.5px";
+    document.getElementById("minus-btn").style.border = "hidden yellowgreen 1.5px";
+    document.getElementById("mul-btn").style.border = "solid yellowgreen 1.5px";
+    document.getElementById("div-btn").style.border = "solid yellowgreen 1.5px";
 }
 
 function clickMul() {
-    document.getElementById("add-btn").style.border = "solid rgb(0, 109, 240) 1.5px";
-    document.getElementById("minus-btn").style.border = "solid rgb(0, 109, 240) 1.5px";
-    document.getElementById("mul-btn").style.border = "hidden rgb(0, 109, 240) 1.5px";
-    document.getElementById("div-btn").style.border = "solid rgb(0, 109, 240) 1.5px";
+    document.getElementById("add-btn").style.border = "solid yellowgreen 1.5px";
+    document.getElementById("minus-btn").style.border = "solid yellowgreen 1.5px";
+    document.getElementById("mul-btn").style.border = "hidden yellowgreen 1.5px";
+    document.getElementById("div-btn").style.border = "solid yellowgreen 1.5px";
 }
 
 function clickDiv() {
-    document.getElementById("add-btn").style.border = "solid rgb(0, 109, 240) 1.5px";
-    document.getElementById("minus-btn").style.border = "solid rgb(0, 109, 240) 1.5px";
-    document.getElementById("mul-btn").style.border = "solid rgb(0, 109, 240) 1.5px";
-    document.getElementById("div-btn").style.border = "hidden rgb(0, 109, 240) 1.5px";
+    document.getElementById("add-btn").style.border = "solid yellowgreen 1.5px";
+    document.getElementById("minus-btn").style.border = "solid yellowgreen 1.5px";
+    document.getElementById("mul-btn").style.border = "solid yellowgreen 1.5px";
+    document.getElementById("div-btn").style.border = "hidden yellowgreen 1.5px";
 }
 
 function clickEquals(x) {

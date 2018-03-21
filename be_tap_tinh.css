@@ -174,7 +174,7 @@ h1 {
 .square-btn {
     width: 26px;
     height: 26px;
-    border: rgb(0, 109, 240) solid 1.5px;
+    border: yellowgreen solid 1.5px;
     border-radius: 12.5%;
     outline: none;
 }
