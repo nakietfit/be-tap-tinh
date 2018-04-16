@@ -229,6 +229,10 @@ function isRealNum(value) {
 
     for (let i = 0; i < value.length; i++) {
         if (value[i] < "0" || value[i] > "9") {
+            if (value[i] === '-' && i === 0) {
+                continue;
+            }
+
             if (value[i] === "." && i !== value.length - 1 && countDotCha === 0 && countDivCha === 0) {
                 countDotCha++;
                 continue;
